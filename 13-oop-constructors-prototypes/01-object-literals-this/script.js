@@ -1,3 +1,4 @@
+/*
 const rectangle = {
   name: 'Rectangle 1',
   width: 20,
@@ -21,3 +22,20 @@ const rectangle2 = {
 
 console.log(rectangle.area());
 console.log(rectangle2.area());
+
+*/
+
+// exercise 01-10-24
+
+const rectangle = {
+  name: "Rectangle 1",
+  width: 10,
+  height: 10,
+
+  area: function () {
+    return this.width * this.height;
+  },
+};
+
+console.log(rectangle.area()); // 100
+console.log(this); // Window Object
