@@ -30,8 +30,8 @@ console.log(rect.area());
 console.log(rect.perimeter());
 console.log(rect.isSquare());
 
-const rect2 = createRectangle(30, 30);
-console.log(rect2);
-console.log(rect2.area());
-console.log(rect2.perimeter());
-console.log(rect2.isSquare());
+// const rect2 = createRectangle(30, 30);
+// console.log(rect2);
+// console.log(rect2.area());
+// console.log(rect2.perimeter());
+// console.log(rect2.isSquare());
